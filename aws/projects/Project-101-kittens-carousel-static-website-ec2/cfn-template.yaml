@@ -21,7 +21,7 @@ Resources:
   WebServerHost:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-05fa00d4c63e32376
+      ImageId: ami-0cf10cdf9fcd62d37
       InstanceType: t2.micro
       KeyName: anahtar
       SecurityGroupIds:
